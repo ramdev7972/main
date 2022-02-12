@@ -14,5 +14,9 @@ resource "aws_vpc" "mainsss" {
 }
 
 resource "aws_s3_bucket" "xyvsd" {
-  bucket = "priya"
+  bucket = "priya1221"
+
+  tags = {
+    Name        = "My bucket"
+  }
 }
