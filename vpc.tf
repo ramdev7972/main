@@ -13,6 +13,6 @@ resource "aws_vpc" "mainsss" {
   }
 }
 
-resource "aws_s3_bucket_acl" "xyvsd" {
+resource "aws_s3_bucket" "xyvsd" {
   bucket = "priya"
 }
