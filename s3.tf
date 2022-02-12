@@ -5,5 +5,4 @@ secret_key = "1J7YOOCdmznw767Xun+WphsGtY5c0jIJasPHP5dD"
 }
 resource "aws_s3_bucket" "yvesa12" {
 bucket = "krudra22"
-acl = "private"
 }
