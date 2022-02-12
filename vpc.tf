@@ -14,5 +14,5 @@ resource "aws_vpc" "mainsss" {
 }
 
 resource "aws_s3_bucket_acl" "xyvsd" {
-  bucket = aws_s3_bucket.b.id
+  bucket = "priya"
 }
